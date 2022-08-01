@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+
+        h1 {
+            font-family: 'Courier New', Courier, monospace;
+            font-style: normal;
+            font-weight: lighter;
+        }
+
+        table {
+            width: 700px;
+            border-collapse: collapse;
+        }
+
+        thead > tr > th {
+            background-color: gray;
+            color: white;
+            position: sticky;
+            top: -1px;
+            
+        }
+
+        tbody > tr:nth-child(odd){
+            background-color: lightgrey;
+        }
+
+        td, th {
+            border: 1px solid black;
+            height: 40px;
+            padding: 4px;
+        }
+        th {
+            text-align: left;
+        }
+
+        .number{
+            text-align: right;
+        }
+        main {
+            width: 400px;
+            font-weight: justify;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Unidade federativa</td>
+                <th>População</td>
+                <th>PIB</td>
+                <th>Capital</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="number">41.262.199</td>
+                <td>xxxx</td>
+                <td>São Paulo</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="number">19.597.330</td>
+                <td>xxxx</td>
+                <td>Belo Horizonte</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="number">15.989.929</td>
+                <td>xxxx</td>
+                <td>Rio de Janeiro</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="number">14.016.906</td>
+                <td>xxxx</td>
+                <td>Salvador</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="number">10.444.526</td>
+                <td>xxxx</td>
+                <td>Curitiba</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="number">10.693.929</td>
+                <td>xxxx</td>
+                <td>Santa Catarina</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="number">8.796.448</td>
+                <td>xxxx</td>
+                <td>xxxxxx</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="number">8.452.381</td>
+                <td>xxxx</td>
+                <td>Fortaleza</td>
+            </tr>
+            <tr>
+                <td>Para</td>
+                <td class="number">7.581.051</td>
+                <td>xxxx</td>
+                <td>Belém</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="number">6.248.436</td>
+                <td>xxxxx</td>
+                <td>xxxxxx</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="number">6.003.788</td>
+                <td>xxxx</td>
+                <td>Goiania</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="number">6.574.789</td>
+                <td>xxxxxx</td>
+                <td>São Luis</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="number">3.483.985</td>
+                <td>xxxxxx</td>
+                <td>Manaus</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="number">3.514.952</td>
+                <td>xxxxx</td>
+                <td>Natal</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">Total de Habitantes: </td>
+                <td class="number">212.600.000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
